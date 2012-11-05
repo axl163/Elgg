@@ -69,7 +69,7 @@ $CONFIG->dbhost = 'tunnel.pagodabox.com:3306';
  *
  * @global string $CONFIG->dbprefix
  */
-$CONFIG->dbprefix = '_elgg';
+$CONFIG->dbprefix = 'elgg_';
 
 
 /**
