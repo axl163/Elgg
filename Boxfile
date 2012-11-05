@@ -1,0 +1,11 @@
+web1: #component type & number
+  name: elgg      
+  php_extensions:
+    - mysql
+    - gd    
+  php_default_locale: "en_US"
+  php_max_execution_time: 30
+     
+db1: #component type & number 
+  name: elgg
+  type: mysql
