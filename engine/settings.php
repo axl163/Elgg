@@ -58,7 +58,7 @@ $CONFIG->dbname = 'elgg';
  *
  * @global string $CONFIG->dbhost
  */
-$CONFIG->dbhost = 'localhost';
+$CONFIG->dbhost = 'tunnel.pagodabox.com:3306';
 
 /**
  * The database prefix
