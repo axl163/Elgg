@@ -35,21 +35,21 @@ if (!isset($CONFIG)) {
  * @global string $CONFIG->dbuser
  * @name $CONFIG->dbuser
  */
-$CONFIG->dbuser = 'florene';
+$CONFIG->dbuser = $_SERVER['DB1_USER'];
 
 /**
  * The database password
  *
  * @global string $CONFIG->dbpass
  */
-$CONFIG->dbpass = 'lxNOLIHM';
+$CONFIG->dbpass = $_SERVER['DB1_PASS'];
 
 /**
  * The database name
  *
  * @global string $CONFIG->dbname
  */
-$CONFIG->dbname = 'elgg';
+$CONFIG->dbname = $_SERVER['DB1_NAME'];
 
 /**
  * The database host.
@@ -58,7 +58,7 @@ $CONFIG->dbname = 'elgg';
  *
  * @global string $CONFIG->dbhost
  */
-$CONFIG->dbhost = 'tunnel.pagodabox.com:3306';
+$CONFIG->dbhost = $_SERVER['DB1_HOST'];
 
 /**
  * The database prefix
