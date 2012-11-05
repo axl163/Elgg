@@ -1,0 +1,8 @@
+web1: #component type & number
+  php_extensions: [mysql, curl, gd, mbstring]   
+  php_max_execution_time: 30
+  shared_writable_dirs: /data
+     
+db1: #component type & number 
+  name: elgg
+  type: mysql
