@@ -35,21 +35,21 @@ if (!isset($CONFIG)) {
  * @global string $CONFIG->dbuser
  * @name $CONFIG->dbuser
  */
-$CONFIG->dbuser = $_SERVER['DB1_USER'];
+$CONFIG->dbuser = 'user_05ad9628';
 
 /**
  * The database password
  *
  * @global string $CONFIG->dbpass
  */
-$CONFIG->dbpass = $_SERVER['DB1_PASS'];
+$CONFIG->dbpass = '5W5EcIOY&EpUqU';
 
 /**
  * The database name
  *
  * @global string $CONFIG->dbname
  */
-$CONFIG->dbname = $_SERVER['DB1_NAME'];
+$CONFIG->dbname = 'db_05ad9628';
 
 /**
  * The database host.
@@ -58,7 +58,7 @@ $CONFIG->dbname = $_SERVER['DB1_NAME'];
  *
  * @global string $CONFIG->dbhost
  */
-$CONFIG->dbhost = $_SERVER['DB1_HOST'].':'.$_SERVER['DB1_PORT'];
+$CONFIG->dbhost = 'a.db.shared.orchestra.io';
 
 /**
  * The database prefix
